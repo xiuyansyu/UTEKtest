@@ -49,5 +49,24 @@
   <h6>h6 heading <small>secondary text</small></h6>
 </div>
 
+<div class="container">
+  <h2>Nesting Button Groups</h2>
+  <p>Nest button groups to create drop down menus:</p>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary">Apple <span class="badge">7</span></button>
+    <button type="button" class="btn btn-primary">Samsung <span class="glyphicon glyphicon-search"></span></button>
+    
+    
+    <div class="btn-group"> <!--nesting btn-groups give drop down menu!-->
+      <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Sony <span class="caret"></span></button>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="#">Tablet</a></li>
+        <li><a href="#">Smartphone</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
